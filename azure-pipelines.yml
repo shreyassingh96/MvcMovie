@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: 'SHREYAS'
+  name: 'Windows'
 
 variables:
   buildConfiguration: 'Release'
