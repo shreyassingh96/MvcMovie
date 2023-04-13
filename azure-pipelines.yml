@@ -6,9 +6,14 @@
 trigger:
 - master
 
+
 pool:
   name: 'Windows'
-
+  demands:
+  - msbuild
+  - visualstudio
+  - vstest
+  
 variables:
   buildConfiguration: 'Release'
 steps:
